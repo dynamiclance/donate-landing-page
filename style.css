@@ -1,0 +1,268 @@
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4{
+    margin-bottom: 10px;
+}
+
+button:hover{
+    background-color: #ca5f5f;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+.wrapper {
+    background-image: url(./img/donation1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.top-banner {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.top-banner h1 {
+    font-size: 50px;
+}
+
+.donate-btn {
+    background: #FF5959;
+    border: navajowhite;
+    padding: 10px 41px;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 21px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+
+.donate-today {
+    text-align: center;
+}
+
+.donate-fund {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.donate-container {
+    padding: 80px 0px 0px;
+}
+
+.donate-amount {
+    background: #FAFAFA;
+    margin-right: 18px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.donate-amount.active {
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+}
+
+
+.donate-today form {display: flex;flex-direction: column;justify-content: center;align-items: center;margin-top: 40px;}
+
+.donate-today input[type="text"] {width: 60%;border: none;border-bottom: 2px solid #DADADA;}
+
+.donate-today input[type="text"]::placeholder {
+    text-align: center;
+    font-size: 16px;
+    font-family: Poppins;
+    color: #DADADA;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+
+.donate-plan-info {
+    text-align: center;
+    margin-top: 54px;
+}
+
+.donate-boxes {
+    display: flex;
+    padding: 65px;
+}
+
+.single-donate-box {
+    margin-right: 15px;
+    height: 282px;
+    padding: 44px;
+    transition: 0.3s ease-in;
+}
+
+.single-donate-box:hover {
+    box-shadow: 0px 0px 5px #000;
+}
+
+.single-donate-box.box-1 {
+    background: #EDF5F6;
+}
+.single-donate-box.box-2 {
+    background: #FFEEEE;
+}
+.single-donate-box.box-3 {
+    background: #FFF4D6;
+}
+
+
+.single-donate-box i {
+    font-size: 35px;
+    color: darkslategrey;
+    margin-bottom: 15px;
+}
+
+.single-donate-box h4 {
+    margin-bottom: 12px;
+}
+
+
+.about-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    padding: 65px;
+}
+
+.about-info {width: 85%;}
+.about-info h2 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.about-info > button {
+    padding: 10px 20px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+
+.cards {
+    display: flex;
+    margin-left: 20px;
+}
+
+.single-card {
+    height: 340px;
+    text-align: center;
+    box-shadow: 0px 0px 5px #ddd;
+    margin-right: 20px;
+    padding: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+.single-card:hover{
+    box-shadow: 0px 0px 5px #000;
+}
+
+
+.single-card i {
+    font-size: 50px;
+    background: #FF5959;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    color: #fff;
+    line-height: 70px;
+}
+
+.single-card h4 {font-size: 20px;margin-top: 24px;margin-bottom: 16px;}
+
+.single-card button {
+    background: #000;
+    color: #fff;
+    padding: 8px 20px;
+    margin-top: 14px;
+    cursor: pointer;
+    font-family: 'Poppins';
+}
+
+.single-card button:hover {
+    background: #FF5959;
+    border: none;
+    box-shadow: none;
+    transition: 0.5s cubic-bezier(0.39, 0.58, 0.57, 1);
+}
+
+
+.subscribe-area {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.subscribe-form {
+    background: rgb(255, 244, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 65px;
+    height: 146px;
+}
+
+.subscribe-form input {
+    height: 45px;
+    padding: 10px;
+    border: none;
+    background: #D9D9D9;
+}
+
+.subscribe-form button {
+    background: #FF5959;
+    color: #fff;
+    border: none;
+    padding: 13px 30px;
+    cursor: pointer;
+    font-family: 'Poppins';
+}
+
+.subscribe-form button:hover {
+    background: #ca5f5f;
+    transition: 0.4s ease-in;
+}
+
+.subscribe-form input[type="text"]::placeholder {
+    color: #AA9F9F;
+}
+
+
+.footer {
+    background: #000;
+    text-align: center;
+    padding: 40px 0;
+    color: #fff;
+}
+
+footer .highlight-text{
+    color: #FF5959;
+}
